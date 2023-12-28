@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arunm\\Desktop\\gittest\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\Adarsh VA\\Desktop\\gittest\\delete2023\\propel2023\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arunm\\Desktop\\gittest\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\Adarsh VA\\Desktop\\gittest\\delete2023\\propel2023\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arunm\\Desktop\\gittest\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\Adarsh VA\\Desktop\\gittest\\delete2023\\propel2023\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\arunm\\Desktop\\gittest\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\arunm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arunm\\Desktop\\gittest\\WebApplication1\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\Adarsh VA\\Desktop\\gittest\\delete2023\\propel2023\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Adarsh VA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adarsh VA\\Desktop\\gittest\\delete2023\\propel2023\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\arunm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adarsh VA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
